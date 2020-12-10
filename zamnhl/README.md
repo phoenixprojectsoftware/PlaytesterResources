@@ -9,7 +9,7 @@
 1. Go to the [*Half-Life: Zombies Ate My Neighbours* developer repository.](https://github.com/phoenixprojectsoftware/zamnhl) If you do not have access to it, let the lead developer know in the Phoenix Discord.
 2. Scroll down until you see **Releases** on the right hand side. Click the **Releases** link to find all the compiled builds of ZAMNHL.
 
-3. Find the latest release with the tag **"pre-release."** It should display at the top. Do NOT 
+3. Find the latest release with the tag **"pre-release."** It should display at the top. Do NOT download a version with the tag **"Latest release."**
 4. Click the **Assets** button to expand its section. Then select **Source code (zip).** This will download the game in a ZIP file. When you open it after it downloads, it will have a folder called `zamnhl-VERSIONNUMBER` (obviously it won't say "VERSIONNUMBER," but the version you downloaded).
 5. Rename the folder from `zamnhl-VERSIONNUMBER` to just `zamnhl` in the ZIP file.
 6. Keep the ZIP open. Go into Steam, and find *Half-Life* in your library on the sidebar (if you do not own *Half-Life* on Steam, you will not be able to play ZAMNHL. [Buy *Half-Life* here](https://store.steampowered.com/app/70) if you don't own it). Right click it and select **Manage** and then go to **Browse local files.**
