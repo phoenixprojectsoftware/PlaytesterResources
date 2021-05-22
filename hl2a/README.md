@@ -6,7 +6,7 @@
 
 # How to Install
 ## Prerequisites
-Ensure you have **Source SDK Base 2013** installed on Steam. To do this, go to your library, search "Source SDK" and install **Source SDK Base 2013.** Once it's finished, right click it, go to PROPERTIES, BETAS, then set the branch from `None` to `upcoming - upcoming`.
+Ensure you have **Source SDK Base 2013 Singleplayer** installed on Steam. To do this, go to your library, search "Source SDK" and install **Source SDK Base 2013 Singleplayer.** Once it's finished, right click it, go to PROPERTIES, BETAS, then set the branch from `None` to `upcoming - upcoming`.
 ### Traditional download (easiest method)
 1. Go to the [*Half-Life 2 Anniversary* developer repository.](https://github.com/phoenixprojectsoftware/hl2a) If you do not have access to it, let the lead developer know in the Phoenix Discord.
 2. Click the green "Code" button with the download icon next to it, and click on Download ZIP. The latest version of the game [at the time] will start downloading as a ZIP file.
