@@ -15,9 +15,9 @@
  4. On this screen, search `zamnhlmp` and you should see this:
 	  ![](https://i.imgur.com/UPlPj3v.png)
 	  Select the **phoenixprojectsoftware/zamnhlmp** repository.
-4. Now, in the **Local path** box, enter where you have *Half-Life* installed. For most people it's `C:\Program Files (x86)\Steam\steamapps\common\Half-Life`. If you are unsure where you have *Half-Life* installed, consult the lead developer in the Phoenix Discord.
-5. Click the **Clone** button and wait for the game to download.
-6. Once it has finished downloading, restart Steam. You should see ***Half-Life: Zombies Ate My Neighbours Multiplayer*** in your library.
+5. Now, in the **Local path** box, enter where you have *Half-Life* installed. For most people it's `C:\Program Files (x86)\Steam\steamapps\common\Half-Life`. If you are unsure where you have *Half-Life* installed, consult the lead developer in the Phoenix Discord.
+6. Click the **Clone** button and wait for the game to download.
+7. Once it has finished downloading, restart Steam. You should see ***Half-Life: Zombies Ate My Neighbours Multiplayer*** in your library.
 ### How to update
 1. Open the `zamnhlmp` repository on GitHub Desktop. It should look like this:
 	![GHD1](https://i.imgur.com/N9qbEB4.png)
