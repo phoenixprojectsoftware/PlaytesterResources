@@ -13,6 +13,7 @@
     ![Creating your first repository using GitHub Desktop - GitHub Docs](https://docs.github.com/assets/images/help/desktop/lets-get-started.png)
     Select **Clone a repository from the Internet...**
  4. On this screen, search `zamnhlmp` and you should see this:
+	  
 	  ![](https://i.imgur.com/UPlPj3v.png)
 	  Select the **phoenixprojectsoftware/zamnhlmp** repository.
 5. Now, in the **Local path** box, enter where you have *Half-Life* installed. For most people it's `C:\Program Files (x86)\Steam\steamapps\common\Half-Life`. If you are unsure where you have *Half-Life* installed, consult the lead developer in the Phoenix Discord.
