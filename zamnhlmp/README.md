@@ -5,6 +5,7 @@
 
 
 # How to Install
+**NOTE: IF YOU HAVE ALREADY INSTALLED ZAMNHLMP IN THE PAST, NO MATTER WHAT METHOD OTHER THAN GITHUB DESKTOP, DELETE IT.**
 ## GitHub Desktop (best method)
 1. Download [GitHub Desktop.](https://desktop.github.com/)
 2. Once it has installed, sign in with your GitHub Account.
