@@ -5,7 +5,23 @@
 
 
 # How to Install
-## Traditional download (easiest method)
+**NOTE: IF YOU HAVE ALREADY INSTALLED ZAMNHL IN THE PAST, NO MATTER WHAT METHOD OTHER THAN GITHUB DESKTOP, DELETE IT.**
+## GitHub Desktop (best method)
+1. Download [GitHub Desktop.](https://desktop.github.com/)
+2. Once it has installed, sign in with your GitHub Account.
+3. You should see this screen:
+    ![Creating your first repository using GitHub Desktop - GitHub Docs](https://docs.github.com/assets/images/help/desktop/lets-get-started.png)
+    Select **Clone a repository from the Internet...**
+ 4. On this screen, search `zamnhl`
+5. Select the **phoenixprojectsoftware/zamnhl** repository.
+6. Now, in the **Local path** box, enter where you have *Half-Life* installed. For most people it's `C:\Program Files (x86)\Steam\steamapps\common\Half-Life`. If you are unsure where you have *Half-Life* installed, consult the lead developer in the Phoenix Discord.
+7. Click the **Clone** button and wait for the game to download.
+8. Once it has finished downloading, restart Steam. You should see ***Half-Life: Zombies Ate My Neighbours Alpha*** in your library.
+### How to update
+1. Open the `zamnhl` repository on GitHub Desktop.
+2. Select the **Repository** tab on the top and click **Pull.**
+
+## Traditional download (WORST method)
 1. Go to the [*Half-Life: Zombies Ate My Neighbours* developer repository.](https://github.com/phoenixprojectsoftware/zamnhl) If you do not have access to it, let the lead developer know in the Phoenix Discord.
 2. Scroll down until you see **Releases** on the right hand side. Click the **Releases** link to find all the compiled builds of ZAMNHL.
 
