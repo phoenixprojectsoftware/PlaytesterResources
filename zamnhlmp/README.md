@@ -1,47 +1,48 @@
-# The Phoenix Project Software Playtester Resources
-## Codename ZAMNHLMP — *"Half-Life: Zombies Ate My Neighbours Multiplayer"*
-***Codename ZAMNHLMP*** is The Phoenix Project Software's latest advancement in game development. Making use of the **Half-Life Engine** and [**Grey Source**](https://moddb.com/engines/grey-source), it brings the player (that's you!) an amazing hectic combat, survival, stealth and puzzle solving experience.
-![Screenshot of Codename ZAMNHL](https://media.moddb.com/images/members/5/4383/4382734/profile/unknown_1.png)
+# The Phoenix Project Software: Playtester Resources
+# How to Install ZAMNHLMP Dev Branch (Public PlayTest PPT)
+## Creating your GitHub account
+In order to proceed it's recommended that you create a [GitHub account.](https://github.com/signup)
+## Downloading GitHub Desktop
+Though you can just use a CLI, GitHub Desktop is the easiest way to install and update ZAMNHLMP Dev. To install GitHub Desktop, [click here.](https://desktop.github.com/download/)
+## Installing *Half-Life* on Steam
+Open your Steam library and [install *Half-Life.*](steam://install/70) Ensure the game is not set to the `steam_legacy` branch. Once the game is installed, right-click it in your library menu and go to **Manage > Browse Local Files.**
+![enter image description here](https://imgur.com/LZo78pK.png)
 
+This will open a File Explorer window to your local *Half-Life* install directory:
+![enter image description here](https://imgur.com/ioxtTmW.png)
 
-# How to Install
-**NOTE: IF YOU HAVE ALREADY INSTALLED ZAMNHLMP IN THE PAST, NO MATTER WHAT METHOD OTHER THAN GITHUB DESKTOP, DELETE IT.**
-## GitHub Desktop (best method)
-1. Download [GitHub Desktop.](https://desktop.github.com/)
-2. Once it has installed, sign in with your GitHub Account.
-3. You should see this screen:
-    ![Creating your first repository using GitHub Desktop - GitHub Docs](https://docs.github.com/assets/images/help/desktop/lets-get-started.png)
-    Select **Clone a repository from the Internet...**
- 4. On this screen, search `zamnhlmp` and you should see this:
-	  
-	  ![](https://i.imgur.com/UPlPj3v.png)
-	  Select the **phoenixprojectsoftware/zamnhlmp** repository.
-5. Now, in the **Local path** box, enter where you have *Half-Life* installed. For most people it's `C:\Program Files (x86)\Steam\steamapps\common\Half-Life`. If you are unsure where you have *Half-Life* installed, consult the lead developer in the Phoenix Discord.
-6. Click the **Clone** button and wait for the game to download.
-7. Once it has finished downloading, restart Steam. You should see ***Half-Life: Zombies Ate My Neighbours Multiplayer*** in your library.
-### How to update
-1. Open the `zamnhlmp` repository on GitHub Desktop. It should look like this:
-	![GHD1](https://i.imgur.com/N9qbEB4.png)
-2. Select the **Repository** tab on the top and click **Pull.**
+Click the blank space in the file-path to the left of the search box, and the space will become typeable. Copy the path to your clipboard; in most cases it's `C:\Program Files (x86)\Steam\steamapps\common\Half-Life`.
 
-## Traditional download (worst method)
-1. Go to the [*Half-Life: Zombies Ate My Neighbours Multiplayer* developer repository.](https://github.com/phoenixprojectsoftware/zamnhlmp) If you do not have access to it, let the lead developer know in the Phoenix Discord.
-2. Scroll down until you see **Releases** on the right hand side. Click the **Releases** link to find all the compiled builds of ZAMNHL.
+## Cloning ZAMNHLMP
+Now, you can clone ZAMNHLMP from The Phoenix Project Software. Open GitHub Desktop and sign in with your account.
 
-3. Find the latest release with the tag **"pre-release."** It should display at the top. Do NOT download a version with the tag **"Latest release."**
-4. Click the **Assets** button to expand its section. Then select **Source code (zip).** This will download the game in a ZIP file. When you open it after it downloads, it will have a folder called `zamnhlmp-VERSIONNUMBER` (obviously it won't say "VERSIONNUMBER," but the version you downloaded).
-5. Rename the folder from `zamnhlmp-VERSIONNUMBER` to just `zamnhlmp` in the ZIP file.
-6. Keep the ZIP open. Go into Steam, and find *Half-Life* in your library on the sidebar (if you do not own *Half-Life* on Steam, you will not be able to play ZAMNHLMP. [Buy *Half-Life* here](https://store.steampowered.com/app/70) if you don't own it). Right click it and select **Manage** and then go to **Browse local files.**
-7. Drag and drop the `zamnhlmp` folder from the ZIP into the ***Half-Life* folder** and it should extract. When performing the drag & drop procedure, make sure that another folder or file is not highlighted.
-8. Restart Steam and you should see ***Half-Life: Zombies Ate My Neighbours Multiplayer*** in your library. If you can't find it, try searching for it. If you still can't find it, you may have extracted the game incorrectly. Check with #playtesters-general in the Phoenix Discord and try the process again.
-9. Run the game.
-### How to update
-Open the link provided to you in #playtesters-announcements and follow the download instructions above from step 4. When updating your install from the Traditional Method, always delete your existing installing first before updating. This is why we recommend using GitHub Desktop or Git, because when we delete or add new files, you don't have to delete your existing installation.
+On the intro screen, click "clone a repository from the Internet" and go to the URL tab to enter the following in the URL box:
 
-# Support
-## GitHub Desktop
-## I used the "Download ZIP" button from the GitHub website and now I can't update. What do I do?
-Simply re-clone the game. Delete your current ZAMNHLMP folder and follow the installation instructions carefully.
+`phoenixprojectsoftware/zamnhlmp`
 
-## The game won't update.
-This is usually due to a conflict issue. To do this, simply re-clone the game. Delete your current ZAMNHLMP folder and follow the installation instructions carefully.
+And in the **Local path** box, paste your *Half-Life* install directory and add to the end of it `zamnhlmp_dev`, so it SHOULD look [something] like this:
+
+`C:\Program Files (x86)\Steam\steamapps\common\Half-Life\zamnhlmp_dev\`
+
+If it's all correct click **Clone** and wait for the process to finish.
+
+![enter image description here](https://imgur.com/49L59Ng.png)
+
+## Setting the dev branch
+When the clone has finished, you'll see a screen like this:
+![enter image description here](https://imgur.com/qZJvmCl.png)
+
+To switch to the `dev` branch and play the correct PPT version, go to the **Current branch** button at the top, and select **origin/dev.**
+![enter image description here](https://imgur.com/sEUvP0k.png)
+
+Then, at the very top of the Window, go to **Repository > Pull** to download the latest changes. The process shouldn't take too long.
+
+![enter image description here](https://imgur.com/xiGZm9B.png)
+
+## Opening the game
+Restart Steam by going to the icon in the system tray and clicking Exit, or the top left Steam dropdown box in the main window. Once restarted, you should see ***Phoenix Developer - Half-Life: Zombies Ate My Neighbours Multiplayer*** in your library. Open it, and you should see the game's main menu screen. ZAMNHLMP Dev is now installed.
+
+# Updating the game
+At the very top of the GitHub Desktop Window, go to **Repository > Pull** to download the latest changes. The process shouldn't take too long.
+
+![enter image description here](https://imgur.com/xiGZm9B.png)
